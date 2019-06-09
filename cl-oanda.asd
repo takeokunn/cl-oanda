@@ -6,10 +6,11 @@
     :version "0.1.0"
     :author "takeokunn"
     :license "GPLv3"
-    :depends-on ()
+    :depends-on (:dexador :cl-json :quri)
     :components ((:module "src"
                      :components
-                     ((:file "cl-oanda"))))
+                     ((:file "cl-oanda" :depends-on ("base"))
+                         (:file "base"))))
     :description "oanda api client"
     :long-description
     #.(read-file-string
