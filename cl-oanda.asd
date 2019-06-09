@@ -6,7 +6,7 @@
     :version "0.1.0"
     :author "takeokunn"
     :license "GPLv3"
-    :depends-on (:dexador :cl-json :quri)
+    :depends-on (:dexador :quri)
     :components ((:module "src"
                      :components
                      ((:file "cl-oanda" :depends-on ("base"))

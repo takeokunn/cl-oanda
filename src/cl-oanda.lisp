@@ -33,8 +33,7 @@
         ;; transactions
         :get-account-transactions
         :show-account-transactions
-        :get-account-all-transactions
-        ))
+        :get-account-all-transactions))
 (in-package :cl-oanda)
 
 ;;;;;;;;;;;;;;;;;;;;;
