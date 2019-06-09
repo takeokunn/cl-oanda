@@ -1,5 +1,0 @@
-* Cl-Oanda 
-
-** Usage
-
-** Installation

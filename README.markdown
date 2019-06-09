@@ -1,4 +1,4 @@
-# Cl-Oanda
+# cl-oanda
 
 ## Usage
 
